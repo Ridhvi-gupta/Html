@@ -8,12 +8,29 @@
 <body>
     <h1>Login form</h1>
     <form>
-        <input type="text">
         <label for="email">
             email:
             <input type="text" name="email">
         </label>
-    </form>
-    
+        <label for="password">
+            password:
+            <!-- <input type="text" name="password"> --> 
+             <!-- for browser security handling: -->
+            <input type="password" name="password"> 
+        </label>
+        <button type="submit">login</button>
+        <!-- <button type="reset">reset</button> To reset the form -->
+         </form>
+
+        <div>
+            <h2>Learning form</h2>
+            <form>
+                <label for="email">
+                    Email:
+                    <input type="email" name="email" id="">
+                </label>
+                <button type="submit">submit</button>
+            </form>
+        </div>
 </body>
 </html>
